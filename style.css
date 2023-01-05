@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("bg-1.jpeg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.3);
+    
+}
+ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    
+    
+}
+ul li{
+    padding: 0px 15px;
+    list-style-type: none;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    
+}
+ul li a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.6s;
+    border-radius: 6px;
+}
+/* END OF NAVBAR -------------------------------------------*/
+.main-body{
+    text-align: center;
+}
